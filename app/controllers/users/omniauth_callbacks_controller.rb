@@ -7,11 +7,8 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
       set_flash_message(:notice, :success, kind: "Instagram") if is_navigational_format?
     else
       session["devise.instagram_data"] = request.env["omniauth.auth"]
-      redirect_to new_user_registration_url
+      set_flash_message(:notice, :failure, kind: "Instagram", reason: @user.errors.full_messages.to_sentence) if is_navigational_format?
+      redirect_to root_path
     end
-  end
-
-  def failure
-    redirect_to root_path
   end
 end
