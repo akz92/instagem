@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_05_12_100200) do
+ActiveRecord::Schema.define(version: 2018_05_12_174752) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 2018_05_12_100200) do
     t.string "uid"
     t.string "name"
     t.string "image"
+    t.string "token", default: "", null: false
     t.index ["provider", "uid"], name: "index_users_on_provider_and_uid", unique: true
   end
 

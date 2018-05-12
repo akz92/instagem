@@ -39,6 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'omniauth', '~> 1.8', '>= 1.8.1'
 gem 'omniauth-instagram', '~> 1.3'
+gem 'instagram', '~> 1.1', '>= 1.1.6'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

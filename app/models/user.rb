@@ -4,7 +4,7 @@ class User < ApplicationRecord
 
   # Validations
   validates :uid, uniqueness: { scope: :provider }
-  validates :provider, :uid, :name, :image, presence: true
+  validates :provider, :uid, :name, :image, :token, presence: true
 
   def self.from_omniauth(auth)
     find_or_create_by(provider: auth.provider, uid: auth.uid) do |user|
@@ -12,6 +12,7 @@ class User < ApplicationRecord
       user.password = Devise.friendly_token[0,20]
       user.name = auth.info.name
       user.image = auth.info.image
+      user.token = auth.credentials.token
     end
   end
 

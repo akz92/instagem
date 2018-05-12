@@ -8,6 +8,7 @@ RSpec.describe User, type: :model do
   it { is_expected.to validate_presence_of(:uid) }
   it { is_expected.to validate_presence_of(:name) }
   it { is_expected.to validate_presence_of(:image) }
+  it { is_expected.to validate_presence_of(:token) }
 
   describe '.from_omniauth' do
     context "when user doesn't exist" do
