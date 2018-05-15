@@ -1,18 +1,75 @@
-.main {
+.session-wrapper {
   background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
   height: 100%;
   position: absolute;
   width: 100%;
 
-  a {
-    padding: 10px;
-    border-radius: 5px;
-    background: #ab4bdc;
-    color: #fff;
+  .session-content {
+    text-align: center;
+    width: 100%;
     position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translateX(-50%);
+    top: 30%;
+
+    h1 {
+      color: #e6e6e6;
+    }
+  }
+
+  a {
+    background-color: #ab4bdc;
+
+    &:hover {
+      background-color: #871bab;
+    }
+  }
+
+  a, a:hover {
+    text-decoration: none;
+    color: #e6e6e6;
+  }
+}
+
+@media only screen and (min-device-width: 320px) {
+  .session-wrapper {
+    .session-content h1 {
+      font-size: 18vw;
+      padding-bottom: 90px;
+    }
+
+    a {
+      font-size: 5vw;
+      padding: 35px;
+      border-radius: 15px;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  .session-wrapper {
+    .session-content h1 {
+      font-size: 10vw;
+      padding-bottom: 50px;
+    }
+
+    a {
+      font-size: 3vw;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .session-wrapper {
+    .session-content h1 {
+      font-size: 5vw;
+      padding-bottom: 20px;
+    }
+
+    a {
+      font-size: 1.5vw;
+      padding: 10px;
+      border-radius: 5px;
+    }
   }
 }
