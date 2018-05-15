@@ -1,0 +1,12 @@
+.navbar {
+  z-index: 2;
+}
+
+.navbar-profile-picture {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.navbar + .content {
+  padding-top: 56px;
+}

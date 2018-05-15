@@ -1,0 +1,17 @@
+.photos {
+  img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) {
+    .photos {
+      max-width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+    .photos {
+      max-width: 70%;
+    }
+}
