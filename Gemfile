@@ -64,6 +64,8 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
   gem 'shoulda-matchers', '~> 3.1', '>= 3.1.2'
+  gem 'simplecov'
+  gem 'codeclimate-test-reporter', '~> 1.0', '>= 1.0.8'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
