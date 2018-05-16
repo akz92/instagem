@@ -1,8 +1,5 @@
-<div class="row photos m-auto pt-lg-5 pt-md-4 pt-sm-4 pt-3">
-  <%# <% @photos.each do |photo| %>
-  <% 12.times do %>
-    <div class="col-4 p-lg-3 p-md-2 p-1">
-      <img src="https://source.unsplash.com/random/400x400">
-    </div>
-  <% end %>
+<div class="row photos js-photos m-auto pt-lg-5 pt-md-4 pt-sm-4 pt-3">
+  <%= render 'photos', photos: @photos %>
 </div>
+
+<%= render 'photos_next_page', next_max_id: @next_max_id %>

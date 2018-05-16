@@ -1,0 +1,3 @@
+$('.js-photos').append("<%= j render 'photos', photos: @photos %>");
+
+$('.js-photos-next-page').html("<%= j render 'photos_next_page', next_max_id: @next_max_id %>");

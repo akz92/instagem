@@ -1,0 +1,5 @@
+<div class="js-photos-next-page">
+  <% if next_max_id.present? %>
+    <%= link_to 'Load more...', home_show_url(max_id: next_max_id), remote: true, class: 'd-block text-center' %>
+  <% end %>
+</div>
