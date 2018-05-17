@@ -3,8 +3,7 @@
 require 'rails_helper'
 
 RSpec.describe InstagramClient do
-  let!(:user) { User.new(token: '7765051998.e73a25a.8a4fc7e06a864707bc508b45a302d34d') }
-  let!(:client) { InstagramClient.new(user) }
+  let!(:client) { InstagramClient.new(build(:user)) }
 
   describe '#recent_media' do
     subject { client.recent_media }
