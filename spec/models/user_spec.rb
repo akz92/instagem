@@ -31,4 +31,10 @@ RSpec.describe User, type: :model do
       end
     end
   end
+
+  describe '.temp_email' do
+    it 'creates a valid email' do
+      expect(User.temp_email(auth)).to eq("#{auth.uid}-#{auth.provider}@temp.com")
+    end
+  end
 end

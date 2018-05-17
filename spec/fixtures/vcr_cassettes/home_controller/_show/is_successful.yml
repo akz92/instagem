@@ -1,0 +1,166 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/users/self/media/recent.json?access_token=7765051998.e73a25a.8a4fc7e06a864707bc508b45a302d34d&count=12&max_id=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Instagram Ruby Gem 1.1.6
+      Authorization:
+      - Token token="7765051998.e73a25a.8a4fc7e06a864707bc508b45a302d34d"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ratelimit-Limit:
+      - '500'
+      X-Ratelimit-Remaining:
+      - '489'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      Content-Language:
+      - en
+      Date:
+      - Thu, 17 May 2018 22:53:35 GMT
+      Set-Cookie:
+      - csrftoken=TvR3vqJYyEFzCVvBwjFOoCI5YjniGmT0; expires=Thu, 16-May-2019 22:53:35
+        GMT; Max-Age=31449600; Path=/; Secure
+      - rur=FTW; Path=/
+      - 'urlgen="{\"time\": 1526597615\054 \"2a02:8084:9043:8b80:3855:f1b2:90cf:9729\":
+        6830}:1fJRmB:_eEwcYG-0KYDEKX5T_py4_989Jg"; Path=/'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2182'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination": {"next_max_id": "1781489093092774369_7765051998", "next_url":
+        "https://api.instagram.com/v1/users/7765051998/media/recent?access_token=7765051998.e73a25a.8a4fc7e06a864707bc508b45a302d34d\u0026count=12\u0026max_id=1781489093092774369_7765051998"},
+        "data": [{"id": "1781491698913136537_7765051998", "user": {"id": "7765051998",
+        "full_name": "Instagem", "profile_picture": "https://instagram.fkwi5-1.fna.fbcdn.net/vp/856b9478629f7c2f4ae549c4c8cc5dd7/5B94597A/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+        "username": "instagem_test"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/vp/2834ede505d23233e8af22c287e5f2a4/5B88B3E8/t51.2885-15/s150x150/e35/32203344_444728495978476_4883571565821689856_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/f615a21e652f19c58e21e07d5ef67c60/5B7B6DAF/t51.2885-15/s320x320/e35/32203344_444728495978476_4883571565821689856_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/vp/082f290fe349f4189652310d27578e9f/5B8DCB8D/t51.2885-15/e35/32203344_444728495978476_4883571565821689856_n.jpg"}},
+        "created_time": "1526590381", "caption": null, "user_has_liked": false, "likes":
+        {"count": 0}, "tags": [], "filter": "Normal", "comments": {"count": 0}, "type":
+        "image", "link": "https://www.instagram.com/p/Bi5IULsBk-Z/", "location": null,
+        "attribution": null, "users_in_photo": []}, {"id": "1781491391839648145_7765051998",
+        "user": {"id": "7765051998", "full_name": "Instagem", "profile_picture": "https://instagram.fkwi5-1.fna.fbcdn.net/vp/856b9478629f7c2f4ae549c4c8cc5dd7/5B94597A/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+        "username": "instagem_test"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/vp/1af2a3f3449f3adb0ce576c3ecd4d412/5B9788C4/t51.2885-15/s150x150/e35/31991234_214111802701133_6730387823561539584_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/f6f9225d8f850c192aa97fab317a2910/5B915D83/t51.2885-15/s320x320/e35/31991234_214111802701133_6730387823561539584_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/vp/3c67788c48e060a5ffc14d5c39235c5f/5B7BD0A1/t51.2885-15/e35/31991234_214111802701133_6730387823561539584_n.jpg"}},
+        "created_time": "1526590344", "caption": null, "user_has_liked": false, "likes":
+        {"count": 0}, "tags": [], "filter": "Normal", "comments": {"count": 0}, "type":
+        "image", "link": "https://www.instagram.com/p/Bi5IPttBLmR/", "location": null,
+        "attribution": null, "users_in_photo": []}, {"id": "1781491273828764453_7765051998",
+        "user": {"id": "7765051998", "full_name": "Instagem", "profile_picture": "https://instagram.fkwi5-1.fna.fbcdn.net/vp/856b9478629f7c2f4ae549c4c8cc5dd7/5B94597A/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+        "username": "instagem_test"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/vp/b869bd100198d026f7fa6d5273d7b9c1/5B9D86A4/t51.2885-15/s150x150/e35/31686925_592817997777797_8350276400430710784_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/5fb52bcea3ff0f3f14e8deacf845c04e/5B96A9C1/t51.2885-15/e35/31686925_592817997777797_8350276400430710784_n.jpg"},
+        "standard_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/5fb52bcea3ff0f3f14e8deacf845c04e/5B96A9C1/t51.2885-15/e35/31686925_592817997777797_8350276400430710784_n.jpg"}},
+        "created_time": "1526590330", "caption": null, "user_has_liked": false, "likes":
+        {"count": 0}, "tags": [], "filter": "Normal", "comments": {"count": 0}, "type":
+        "image", "link": "https://www.instagram.com/p/Bi5IN_zBYsl/", "location": null,
+        "attribution": null, "users_in_photo": []}, {"id": "1781491070010745109_7765051998",
+        "user": {"id": "7765051998", "full_name": "Instagem", "profile_picture": "https://instagram.fkwi5-1.fna.fbcdn.net/vp/856b9478629f7c2f4ae549c4c8cc5dd7/5B94597A/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+        "username": "instagem_test"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/vp/050380325b09271c58fe48f31a579ce5/5B8617CD/t51.2885-15/s150x150/e35/31739388_175102006487348_3060302028195495936_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/ad04212b0f3bb3a1f13a351e45418c7a/5B96968A/t51.2885-15/s320x320/e35/31739388_175102006487348_3060302028195495936_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/vp/8168d344c65e92540ef0a237046d72e4/5B81E6A8/t51.2885-15/e35/31739388_175102006487348_3060302028195495936_n.jpg"}},
+        "created_time": "1526590306", "caption": null, "user_has_liked": false, "likes":
+        {"count": 0}, "tags": [], "filter": "Normal", "comments": {"count": 0}, "type":
+        "image", "link": "https://www.instagram.com/p/Bi5ILB-hWEV/", "location": null,
+        "attribution": null, "users_in_photo": []}, {"id": "1781490910124001545_7765051998",
+        "user": {"id": "7765051998", "full_name": "Instagem", "profile_picture": "https://instagram.fkwi5-1.fna.fbcdn.net/vp/856b9478629f7c2f4ae549c4c8cc5dd7/5B94597A/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+        "username": "instagem_test"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/vp/343fc7f8dec962f029f8170a5bedfeda/5B9BFFDA/t51.2885-15/s150x150/e35/31775444_213316999271653_1276057405234348032_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/0a246462620ac0565a761766d6082717/5B803B9D/t51.2885-15/s320x320/e35/31775444_213316999271653_1276057405234348032_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/vp/e814878eded1b7703b94f45c78622abb/5B82F3BF/t51.2885-15/e35/31775444_213316999271653_1276057405234348032_n.jpg"}},
+        "created_time": "1526590287", "caption": null, "user_has_liked": false, "likes":
+        {"count": 0}, "tags": [], "filter": "Normal", "comments": {"count": 0}, "type":
+        "image", "link": "https://www.instagram.com/p/Bi5IItEh0kJ/", "location": null,
+        "attribution": null, "users_in_photo": []}, {"id": "1781490608729740191_7765051998",
+        "user": {"id": "7765051998", "full_name": "Instagem", "profile_picture": "https://instagram.fkwi5-1.fna.fbcdn.net/vp/856b9478629f7c2f4ae549c4c8cc5dd7/5B94597A/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+        "username": "instagem_test"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/vp/09c7b93f8547f0db2c099953396ceb1c/5B857F95/t51.2885-15/s150x150/e35/32095390_1829067047159150_5283031076564893696_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/2fed1363326407ce30a86c16b1dbae4a/5B8DE4A5/t51.2885-15/s320x320/e35/32095390_1829067047159150_5283031076564893696_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/vp/2acbdbbce4cc6af470eef69018b116c8/5B8AFBC2/t51.2885-15/e35/32095390_1829067047159150_5283031076564893696_n.jpg"}},
+        "created_time": "1526590251", "caption": null, "user_has_liked": false, "likes":
+        {"count": 0}, "tags": [], "filter": "Normal", "comments": {"count": 0}, "type":
+        "image", "link": "https://www.instagram.com/p/Bi5IEUYB9Of/", "location": null,
+        "attribution": null, "users_in_photo": []}, {"id": "1781490191153091418_7765051998",
+        "user": {"id": "7765051998", "full_name": "Instagem", "profile_picture": "https://instagram.fkwi5-1.fna.fbcdn.net/vp/856b9478629f7c2f4ae549c4c8cc5dd7/5B94597A/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+        "username": "instagem_test"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/vp/9c179e1f96affbea133047ddcea45119/5B85B4CC/t51.2885-15/s150x150/e35/32025596_2083919428553923_3012440128124616704_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/c6d213ab14bd97a28518863be408649a/5B7763FC/t51.2885-15/s320x320/e35/32025596_2083919428553923_3012440128124616704_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/vp/b3dbc7de71a64ca7ee59880e47bd41ad/5B94CE9B/t51.2885-15/e35/32025596_2083919428553923_3012440128124616704_n.jpg"}},
+        "created_time": "1526590201", "caption": null, "user_has_liked": false, "likes":
+        {"count": 0}, "tags": [], "filter": "Normal", "comments": {"count": 0}, "type":
+        "image", "link": "https://www.instagram.com/p/Bi5H-PehdNa/", "location": null,
+        "attribution": null, "users_in_photo": []}, {"id": "1781489942506350350_7765051998",
+        "user": {"id": "7765051998", "full_name": "Instagem", "profile_picture": "https://instagram.fkwi5-1.fna.fbcdn.net/vp/856b9478629f7c2f4ae549c4c8cc5dd7/5B94597A/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+        "username": "instagem_test"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/vp/65d486d3eea4ea44d38acab608674dab/5B8166C7/t51.2885-15/s150x150/e35/31920956_247622579312115_8426317971772669952_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/e33ad8134bf4f5d21c5f4470b86c9a97/5B9ADCA2/t51.2885-15/e35/31920956_247622579312115_8426317971772669952_n.jpg"},
+        "standard_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/e33ad8134bf4f5d21c5f4470b86c9a97/5B9ADCA2/t51.2885-15/e35/31920956_247622579312115_8426317971772669952_n.jpg"}},
+        "created_time": "1526590172", "caption": null, "user_has_liked": false, "likes":
+        {"count": 0}, "tags": [], "filter": "Normal", "comments": {"count": 0}, "type":
+        "image", "link": "https://www.instagram.com/p/Bi5H6n6BacO/", "location": null,
+        "attribution": null, "users_in_photo": []}, {"id": "1781489762167985217_7765051998",
+        "user": {"id": "7765051998", "full_name": "Instagem", "profile_picture": "https://instagram.fkwi5-1.fna.fbcdn.net/vp/856b9478629f7c2f4ae549c4c8cc5dd7/5B94597A/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+        "username": "instagem_test"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/vp/111f32c422547dff320776e00d4cbc7b/5B8F9850/t51.2885-15/s150x150/e35/31752459_159774621531016_452815515799257088_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/92d5e421db7c825508b9d742d6fc87f0/5B9504E4/t51.2885-15/e35/31752459_159774621531016_452815515799257088_n.jpg"},
+        "standard_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/92d5e421db7c825508b9d742d6fc87f0/5B9504E4/t51.2885-15/e35/31752459_159774621531016_452815515799257088_n.jpg"}},
+        "created_time": "1526590150", "caption": null, "user_has_liked": false, "likes":
+        {"count": 0}, "tags": [], "filter": "Normal", "comments": {"count": 0}, "type":
+        "image", "link": "https://www.instagram.com/p/Bi5H3_9BJRB/", "location": null,
+        "attribution": null, "users_in_photo": []}, {"id": "1781489630592746953_7765051998",
+        "user": {"id": "7765051998", "full_name": "Instagem", "profile_picture": "https://instagram.fkwi5-1.fna.fbcdn.net/vp/856b9478629f7c2f4ae549c4c8cc5dd7/5B94597A/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+        "username": "instagem_test"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/vp/2fc686c655c97fef44dfc5b44f70bbd4/5B8DA778/t51.2885-15/s150x150/e35/32255810_2032341810192833_7528655131005419520_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/78155a4fa4e3562f22ea5ef02a388f3b/5B7DF22F/t51.2885-15/e35/32255810_2032341810192833_7528655131005419520_n.jpg"},
+        "standard_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/78155a4fa4e3562f22ea5ef02a388f3b/5B7DF22F/t51.2885-15/e35/32255810_2032341810192833_7528655131005419520_n.jpg"}},
+        "created_time": "1526590134", "caption": null, "user_has_liked": false, "likes":
+        {"count": 0}, "tags": [], "filter": "Normal", "comments": {"count": 0}, "type":
+        "image", "link": "https://www.instagram.com/p/Bi5H2FahcXJ/", "location": null,
+        "attribution": null, "users_in_photo": []}, {"id": "1781489483465047233_7765051998",
+        "user": {"id": "7765051998", "full_name": "Instagem", "profile_picture": "https://instagram.fkwi5-1.fna.fbcdn.net/vp/856b9478629f7c2f4ae549c4c8cc5dd7/5B94597A/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+        "username": "instagem_test"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/vp/3d5d5370897e0f6ba5cfd63ad301bb01/5B9351FC/t51.2885-15/s150x150/e35/31849694_1211570332312121_8567733317636456448_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/baa87645116f0c7e63c05cf3f8b6663f/5B8FC7AB/t51.2885-15/e35/31849694_1211570332312121_8567733317636456448_n.jpg"},
+        "standard_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/baa87645116f0c7e63c05cf3f8b6663f/5B8FC7AB/t51.2885-15/e35/31849694_1211570332312121_8567733317636456448_n.jpg"}},
+        "created_time": "1526590117", "caption": null, "user_has_liked": false, "likes":
+        {"count": 0}, "tags": [], "filter": "Normal", "comments": {"count": 0}, "type":
+        "image", "link": "https://www.instagram.com/p/Bi5Hz8ZBzzB/", "location": null,
+        "attribution": null, "users_in_photo": []}, {"id": "1781489093092774369_7765051998",
+        "user": {"id": "7765051998", "full_name": "Instagem", "profile_picture": "https://instagram.fkwi5-1.fna.fbcdn.net/vp/856b9478629f7c2f4ae549c4c8cc5dd7/5B94597A/t51.2885-19/11906329_960233084022564_1448528159_a.jpg",
+        "username": "instagem_test"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/vp/62440b7133b80990004475ff1312f051/5B80D82C/t51.2885-15/s150x150/e35/32178230_584696491911904_5266580690396250112_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/9d067e73872a0fff67113eb5cb42e20b/5B99E449/t51.2885-15/e35/32178230_584696491911904_5266580690396250112_n.jpg"},
+        "standard_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/vp/9d067e73872a0fff67113eb5cb42e20b/5B99E449/t51.2885-15/e35/32178230_584696491911904_5266580690396250112_n.jpg"}},
+        "created_time": "1526590070", "caption": null, "user_has_liked": false, "likes":
+        {"count": 0}, "tags": [], "filter": "Normal", "comments": {"count": 0}, "type":
+        "image", "link": "https://www.instagram.com/p/Bi5HuQ1BxHh/", "location": null,
+        "attribution": null, "users_in_photo": []}], "meta": {"code": 200}}'
+    http_version: 
+  recorded_at: Thu, 17 May 2018 22:53:35 GMT
+recorded_with: VCR 4.0.0
