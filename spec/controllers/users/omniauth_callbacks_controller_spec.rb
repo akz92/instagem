@@ -1,13 +1,15 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe Users::OmniauthCallbacksController, type: :controller do
   before do
-    request.env["devise.mapping"] = Devise.mappings[:user]
+    request.env['devise.mapping'] = Devise.mappings[:user]
   end
 
   describe '#instagram' do
     context 'with valid params' do
-      before { request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:instagram] }
+      before { request.env['omniauth.auth'] = OmniAuth.config.mock_auth[:instagram] }
       before(:each) { get :instagram }
 
       it { is_expected.to be_user_signed_in }
@@ -22,7 +24,7 @@ RSpec.describe Users::OmniauthCallbacksController, type: :controller do
     end
 
     context 'with invalid params' do
-      before { request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:invalid_instagram] }
+      before { request.env['omniauth.auth'] = OmniAuth.config.mock_auth[:invalid_instagram] }
       before(:each) { get :instagram }
 
       it { is_expected.not_to be_user_signed_in }

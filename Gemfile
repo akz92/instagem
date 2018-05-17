@@ -46,6 +46,8 @@ group :development, :test do
   gem 'pry-rails', '~> 0.3.6'
   gem 'dotenv-rails', '~> 2.4'
   gem 'rspec-rails', '~> 3.7', '>= 3.7.2'
+  gem 'vcr', '~> 4.0'
+  gem 'webmock', '~> 3.4', '>= 3.4.1'
 end
 
 group :development do

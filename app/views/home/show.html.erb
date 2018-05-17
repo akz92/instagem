@@ -1,5 +1,5 @@
 <div class="row photos js-photos m-auto pt-lg-5 pt-md-4 pt-sm-4 pt-3">
-  <%= render 'photos', photos: @photos %>
+  <%= render 'photos', photos: @recent_media[:photos] %>
 </div>
 
-<%= render 'photos_next_page', next_max_id: @next_max_id %>
+<%= render 'photos_next_page', next_max_id: @recent_media[:next_max_id] %>
