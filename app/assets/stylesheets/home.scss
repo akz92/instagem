@@ -1,3 +1,7 @@
+#photos-pagination-wrapper .btn:focus {
+  box-shadow: none;
+}
+
 @media only screen and (min-device-width: 320px) {
     #photos-wrapper {
       max-width: 100%;

@@ -11,6 +11,10 @@
     top: 30%;
 
     h1 {
+      padding-bottom: 5px;
+    }
+
+    h1, h5 {
       color: #e6e6e6;
     }
   }
@@ -34,9 +38,15 @@
 
 @media only screen and (min-device-width: 320px) {
   .session-wrapper {
-    .session-content h1 {
-      font-size: 18vw;
-      padding-bottom: 90px;
+    .session-content {
+      h1 {
+        font-size: 18vw;
+      }
+
+      h5 {
+        font-size: 4vw;
+        padding-bottom: 90px;
+      }
     }
 
     a {
@@ -49,9 +59,15 @@
 
 @media only screen and (min-device-width: 768px) {
   .session-wrapper {
-    .session-content h1 {
-      font-size: 8vw;
-      padding-bottom: 30px;
+    .session-content {
+      h1 {
+        font-size: 8vw;
+      }
+
+      h5 {
+        font-size: 2.5vw;
+        padding-bottom: 30px;
+      }
     }
 
     a {
@@ -64,9 +80,15 @@
 
 @media only screen and (min-width: 1024px) {
   .session-wrapper {
-    .session-content h1 {
-      font-size: 5vw;
-      padding-bottom: 20px;
+    .session-content {
+      h1 {
+        font-size: 5vw;
+      }
+
+      h5 {
+        font-size: 1.5vw;
+        padding-bottom: 20px;
+      }
     }
 
     a {
