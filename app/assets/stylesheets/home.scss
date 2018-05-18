@@ -1,11 +1,11 @@
 @media only screen and (min-device-width: 320px) {
-    .photos {
+    #photos-wrapper {
       max-width: 100%;
     }
 }
 
 @media only screen and (min-width: 1224px) {
-    .photos {
+    #photos-wrapper {
       max-width: 70%;
     }
 }

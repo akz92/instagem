@@ -1,7 +1,11 @@
-<div class="js-photos-next-page mb-5">
+<div id="photos-pagination-wrapper" class="mb-5">
   <% if next_max_id.present? %>
     <div class="d-block text-center">
-    <%= link_to 'Load more...', home_show_url(max_id: next_max_id), remote: true, class: 'photos-next-page p-2 rounded' %>
+      <%= link_to home_show_url(max_id: next_max_id), remote: true, id: 'photos-next-page', class: 'btn btn-outline-secondary' do %>
+        <i class="d-none fa fa-spinner fa-spin fa-fw"></i>
+
+        <span>Load more</span>
+      <% end %>
     </div>
   <% end %>
 </div>
