@@ -2,6 +2,10 @@
   <div class="session-content">
     <h1>Instagem</h1>
 
-    <%= render "devise/shared/links" %>
+    <%= link_to user_instagram_omniauth_authorize_url, id: 'sign-in', class: 'btn btn-primary border-0' do %>
+      <i class="d-none fa fa-spinner fa-spin fa-fw"></i>
+
+      <span>Sign in with Instagram</span>
+    <% end %>
   </div>
 </div>
