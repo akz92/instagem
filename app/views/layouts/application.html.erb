@@ -17,5 +17,15 @@
     <div class="content">
       <%= yield %>
     </div>
+
+    <% flash.each do |key, value| %>
+      <div class="position-absolute alert alert-dismissable <%= flash_class(key) %>" role="alert">
+        <%= value %>
+
+        <button type="button" class="close pl-1" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+<% end %>
   </body>
 </html>
