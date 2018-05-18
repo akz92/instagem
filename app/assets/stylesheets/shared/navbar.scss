@@ -1,5 +1,10 @@
 .navbar {
   z-index: 2;
+  background-color: #27b2f1;
+
+  * {
+   color: white;
+  }
 }
 
 .navbar-profile-picture {
