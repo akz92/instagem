@@ -40,6 +40,7 @@ gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'omniauth', '~> 1.8', '>= 1.8.1'
 gem 'omniauth-instagram', '~> 1.3'
 gem 'instagram', '~> 1.1', '>= 1.1.6'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
